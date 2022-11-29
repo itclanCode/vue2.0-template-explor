@@ -1,12 +1,13 @@
 <template>
   <div id="app">
     <h1>
-         <span>Vue Template Explorer模板编译 (Vue version: {{version}})</span>
+         <span>Vue2.0模板编译 (Vue version: {{version}})</span>
          <a class="link" href="https://github.com/itclanCode/vue2.0-template-explorer" target="_blank">GitHub</a>
          <a class="link" href="https://coder.itclan.cn" target="_blank">博客</a>
-         <a class="link" href="https://zhanji.itclan.cn" target="_blank">站集网</a>
-         <a class="link" href="https://img.itclan.cn" target="_blank">客来图床</a>
-         <a class="link" href="https://itclan.cn" target="_blank">爱客来</a>
+         <a class="link" href="https://frontend.itclan.cn" target="_blank">前端资源网</a>
+         <a class="link" href="https://itclan.cn" target="_blank">IT资源网</a>
+         <a class="link" href="https://tv.itclan.cn" target="_blank">精品影视</a>
+         <a class="link" href="https://aikelaikaifa.com" target="_blank">爱客来开发</a>
     </h1>
     <label class="with-toggle">
       <input type="checkbox" v-model="stripWith">
